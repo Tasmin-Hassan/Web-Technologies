@@ -3,7 +3,7 @@ body{
     text-align:center;
 }
 
-/* product boxes */
+
 .product{
     display:inline-block;
     width:220px;
@@ -16,19 +16,19 @@ body{
     border-radius:10px;
 }
 
-/* hover outline */
+
 .product:hover{
     outline:3px solid blue;
     outline-offset:6px;
 }
 
-/* image size */
+
 .product img{
     width:120px;
     height:120px;
 }
 
-/* buy button */
+
 .product a{
     display:inline-block;
     margin-top:8px;
