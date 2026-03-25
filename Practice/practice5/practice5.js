@@ -24,4 +24,9 @@ markInput.addEventListener('input',function(){
         message.textContent="Excellent!!!!!";
         message.style.color="green";
      }
+     
+     else{
+         message.textContent="Input Student Marks";
+        message.style.color="black";
+     }
 });
