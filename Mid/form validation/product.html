@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Form</title>
+</head>
+<body>
+
+<h2>Product Inventory Form</h2> 
+
+<form onsubmit="return validateForm()">
+
+    <!-- Product Name -->
+    Product Name:<br>
+    <input type="text" id="productName"  placeholder="Enter product Name">
+    <span id="nameError"></span><br><br>
+
+    <!-- Price -->
+    Price:<br>
+    <input type="number" id="productPrice"  placeholder="Enter price" >
+    <span id="priceError"></span><br><br>
+
+    <!-- Quantity -->
+    Quantity in Stock:<br>
+    <input type="number" id="quantity"  placeholder="Enter quantity" >
+    <span id="quantityError"></span><br><br>
+
+    <!-- Category -->
+    Category:<br>
+    <select id="category">
+        <option value="">Select</option>
+        <option>Electronics</option>
+        <option>Clothing</option>
+        <option>Food</option>
+    </select>
+    <span id="categoryError"></span><br><br>
+
+    <!-- Expiry Date -->
+    Expiry Date:<br>
+    <input type="text" id="expiryDate" placeholder="DD-MM-YYYY">
+    <span id="dateError"></span><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Add Product">
+
+</form>
+
+<script src="validation.js"></script>
+
+</body>
+</html>
