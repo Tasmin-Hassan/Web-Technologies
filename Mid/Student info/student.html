@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+        student info
+    </title>
+
+   <!--syle
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>-->
+
+
+    </head>
+    <body>
+         <h2>Student Information Checker</h2>
+
+        <form onsubmit="return validation()">
+            Student Name:<br>
+            <input type="text" placeholder="Enter your Name" id = "Sname">
+            <span id ="SnameError" ></span><br><br>
+
+
+
+            Student's Mark:<br>
+            <input type="number" placeholder="Enter your marks"id="Smarks">
+            <span id ="MError"></span><br><br>
+
+            <input type="submit">   
+
+       
+
+              </form>
+
+            <br><br>
+            
+           <!--table id  ="studentTable">
+                <tr>
+                    <th>Name</th>
+                    <th>Marks</th>
+                </tr>
+            </table>-->
+
+
+             <table border = "1" id="studentTable">
+                <tr>
+                <th>Name</th>
+                <th>Marks</th>
+                </tr>
+             </table>
+
+
+
+             <script src="student.js"></script>
+
+    </body>
+</html>
