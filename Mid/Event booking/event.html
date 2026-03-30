@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Booking</title>
+    </head>
+    <body>
+        <h2>Event Booking Form</h2>
+
+        <form onsubmit="return validationform()">
+            
+
+        Full Name:<br>
+        <input type="text" placeholder="Enter your full name" id="Name">
+        <span id="NameError"></span><br><br>
+
+
+
+
+        Email Address:<br>
+        <input type="text" placeholder="Enter your email" id="Email">
+        <span id="EmailError"></span><br><br>
+
+
+
+
+        Number of Tickets:<br>
+        <input type ="number" placeholder="Enter quantity" id="Ticket">
+        <span id="TicketError"></span><br><br>
+
+
+
+        Event Type:<br>
+        <select id="Eevent">
+            <option value="">Select</option>
+            <option>Workshop</option>
+            <option>Seminar</option>
+            <option>Networking</option>
+        </select>
+        <span id="EventError"></span><br><br>
+
+
+
+        Event Date:<br>
+        <input type="date" placeholder="DD-MM-YYYY" id="Edate">
+        <span id="DateError"></span><br><br>
+
+
+
+
+        Agree to Terms:<br>
+        <input type="checkbox" id="Agree">
+        <span id="AgreeError"></span><br><br>
+
+        <input type="submit"value="Submit">
+
+</form>
+
+
+<script src="validation.js"></script>
+
+
+    </body>
+    
+</html>
