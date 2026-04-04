@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom:30px;
+}
+
+
+input[type="number"]{
+    padding: 5px;
+    width:200px;
+    margin-bottom: 20px;
+    display: block;
+}
