@@ -31,5 +31,6 @@ Confirm:
 <button type="submit">Signup</button>
 </form>
 
-<a href="main.php?page=signin">Signin</a>
+<a href="main.php?page=signin">signin</a>
+
 </body>
